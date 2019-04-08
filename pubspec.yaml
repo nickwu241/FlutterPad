@@ -1,5 +1,5 @@
 name: flutterpad
-description: A new Flutter project.
+description: A drum pad created using Flutter.
 
 version: 1.0.0+1
 
@@ -11,9 +11,14 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
 
+  audioplayers: ^0.10.1
+  webview_flutter: ^0.3.5+3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/audio/
